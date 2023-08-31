@@ -1,22 +1,22 @@
 # VRS
 A Vehicle Management System is a software application or platform designed to streamline and automate various aspects of managing a fleet of vehicles. It is commonly used by businesses or organizations that rely heavily on transportation, such as logistics companies, delivery services, rental car companies, or large corporate fleets. 
 erent types of vehicles on rent to customers which includes
+
 1. Bike
 2. Car
 3. Bicycle
 4. Scooter
+
+
+
+![py1](https://github.com/Akash12233/VRS/assets/121252393/8f1cc6bc-93ea-43b4-9e29-7d963a6502ad)
+
 The complete program of this project is in Python language and we use Object-Oriented
 Programming approach to reduce complexity and number of lines in programme. Another major
 highlight in our project is GUI interface which we created with the help of Tkinter module in
 Python.
 Following are some of the modules and libraries we used:
 1. Tkinter:-
-S. No. Name of Students Roll No.
-1 Aditya Jadhav BT21ECE082
-2 Vedant Lokhande BT21ECE083
-3 Akash Tayade BT21ECE085
-4 Himanshu Kohade BT21ECE086
-2
 ➢ Tkinter is the standard GUI library for Python. It provides a powerful object –
 oriented interface to the Tk GUI toolkit.
 2. Python sqlite3: -
@@ -49,19 +49,27 @@ Scooter.
 by reading “Vehicle.xlsx” file using openpyxl module.
 • RAV: - Gives option to user to return a vehicle which he rented initially.
 • logout: - Gives option to user to logout and terminate the programme.
-3
+
 • checkSrNo: - Gives option to user to enter serial number of vehicle model
 he rented. If it matches then allow user to proceed with payment else
 throws an error.
-3. ReturnVehicle Class: - Useful methods (functions) in this class are discussed below:
+![py2](https://github.com/Akash12233/VRS/assets/121252393/c45fa7cd-b2c6-4ae3-94f3-ebe5727db258)
+
+
+ReturnVehicle Class: - Useful methods (functions) in this class are discussed below:
 • Damage_chk: - Add damage cost to final bill amount if there is any
 damage in vehicle.
 • iExit: - Gives option to exit and terminate the programme.
 • Receiptt: - Creates buttons and entry widgets for getting user details.
-4. afterselectingVehicle: -
+
+5. afterselectingVehicle: -
 • This class has programme for printing user details entered by user in entry
 widgets and print it in receipt.
 • For calculation of final bill amount to be paid by user.
 • Reset option to clear all details entered by user in entry widgets.
 • Back( ) method for going to back to window with “Return a Vehicle”
 option.
+
+
+![py3](https://github.com/Akash12233/VRS/assets/121252393/c523ead3-42cd-403c-a51c-d5c2e4f3078f)
+
